@@ -1,0 +1,33 @@
+.site-header {
+	position: fixed;
+	background: none;
+}
+
+.header-title {
+	display: none;
+}
+
+.page-content {
+	padding-top: 0px;
+}
+
+body {
+	background-image: url('/images/background.jpg');;
+}
+
+@media(max-width: 1023px) {
+	.page-content{
+		padding-bottom: 268px;
+	}
+
+	
+
+	
+
+	.site-header a, .site-header img{
+		z-index: 5;
+    	-webkit-tap-highlight-color: transparent;
+    	-webkit-backface-visibility: hidden;
+    	-webkit-transform-style: preserve-3d;
+	}
+}
